@@ -14,11 +14,12 @@
         />
         <style>
             body {
-                background-image: url(images/bg-image.jpg);
+                background-image: url("images/bg-image.jpg");
+                background-repeat: no-repeat;
             }
         </style>
     </head>
-    <body>
+    <body class="container">
         <div class="input-group my-5 w-50 mx-auto">
             <input
                 id="inputField"
@@ -32,6 +33,19 @@
                 Search
             </button>
         </div>
+        <!-- error msg -->
+        <div id="error-msg" class="p-3 m-2 bg-danger d-none">
+            <p class="m-0 text-white text-center">
+                Sorry, No results found! Enter a valid location!
+            </p>
+        </div>
+        <!-- loading spinner -->
+        <div id="spinner" class="d-flex justify-content-center d-none">
+            <div class="spinner-border text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div id="weather" class="text-white text-center"></div>
         <script src="main.js"></script>
     </body>
 </html>
