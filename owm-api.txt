@@ -1,4 +1,4 @@
-API key => 7a4e4161428809308140f56f37945c5c
+API key => get your own key from openweathermap
 
 How to get weather icon URL
 URL is => http://openweathermap.org/img/wn/{iconId}@2x.png
