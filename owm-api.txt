@@ -1,0 +1,6 @@
+API key => 7a4e4161428809308140f56f37945c5c
+
+How to get weather icon URL
+URL is => http://openweathermap.org/img/wn/{iconId}@2x.png
+
+By city name => api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
