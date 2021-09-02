@@ -35,7 +35,7 @@ const displayInfo = (data) => {
             <div class="">
                 <img src="http://openweathermap.org/img/wn/${iconId}@2x.png" alt="" />
                 <h1 class="fs-1 fw-bolder">${name}</h1>
-                <h4 class="fw-bold"><span class="text-warning">${temp}*C</span>, Feels like <span class="text-danger">${feelsLike}*C</span></h4>
+                <h4 class="fw-bold"><span class="text-warning">${temp}&deg;C</span>, Feels like <span class="text-danger">${feelsLike}&deg;C</span></h4>
                 <h3 class="fw-light">${weatherCondition}</h3>
             </div>
         `;
